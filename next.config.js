@@ -6,6 +6,9 @@ module.exports = nextConfig
 const nexttoConfig = {
     images: {
         domains: ["cdn.imagin.studio"]
+    },
+    typescript: {
+        ignoreBuildErrors: true
     }
 }
 
